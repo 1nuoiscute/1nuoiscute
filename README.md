@@ -1,5 +1,13 @@
-## Hi there 👋
+# 1nuo
 
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=1nuoiscute&theme=darkhub&no-bg=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+### 🛠️ 技术栈与数据
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+![1nuo's GitHub stats](https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&theme=transparent&hide_border=true)
 <!--
 **1nuoiscute/1nuoiscute** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
