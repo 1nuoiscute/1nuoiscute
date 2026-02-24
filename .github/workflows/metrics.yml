@@ -9,35 +9,36 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
-        with:
+     - uses: lowlighter/metrics@latest
+       with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: 1nuoiscute
           template: classic
+          # 增加 base_indepth，强制基础数据也深度抓取私有库
           base: header, activity, community, repositories, metadata
+          base_indepth: yes 
           config_timezone: Asia/Shanghai
           
-          # --- 核心：仓库过滤与语言去噪 ---
+          # --- 核心：强制抓取私有库配置 ---
+          repositories_affiliations: owner 
           plugin_languages: yes
-          plugin_languages_skipped: 1nuoiscute.github.io, 1nuo-blog-twikoo, 1nuo-blog, 1nuoiscute  # 这里填入你不想要的仓库名
+          plugin_languages_skipped: 1nuoiscute.github.io, 1nuo-blog-twikoo, 1nuo-blog, 1nuoiscute
           plugin_languages_limit: 8
           plugin_languages_details: percentage, lines
-          plugin_languages_indepth: yes # 开启深度分析，抓取 LeetCode 仓库里的具体逻辑
+          plugin_languages_indepth: yes # 深度分析私有库代码
           
-          # --- 修复习惯统计 (Habits) ---
+          # --- 习惯与成就 (增加容错) ---
           plugin_habits: yes
-          plugin_habits_from: 100       # 抓取最近100个事件，防止数据太少报错
+          plugin_habits_from: 50        # 降低样本数，防止超时
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           
-          # --- 修复成就统计 (Achievements) ---
           plugin_achievements: yes
-          plugin_achievements_threshold: X # 极低门槛模式，只要有活动就点亮勋章
-          plugin_achievements_display: compact 
+          plugin_achievements_threshold: X
+          plugin_achievements_display: compact
           
-          # --- 其他数据 ---
           plugin_lines: yes
           
-          # 重新排序，把你最在意的语言占比放在最上面
-          config_order: base.header, languages, habits, lines, achievements
+          # 打开 Debug 模式，如果这次还失败，去 Actions 日志里能看到具体原因
+          debug: yes
