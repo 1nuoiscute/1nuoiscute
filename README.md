@@ -19,7 +19,8 @@
 ### 📊 <i>Github Data<i>
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=1nuoiscute&theme=dark&hide_border=true" width="39.5%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1nuoiscute&theme=react-dark&hide_border=true&area=true" width="59.5%" />
+  
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1nuoiscute&bg_color=0D1117&color=9DC183&line=9DC183&point=9DC183&area=true&area_color=9DC183&hide_border=true" width="59.5%" />
 </p>
 
 <sub>*![Views](https://komarev.com/ghpvc/?username=1nuoiscute&color=blue&style=flat-square)*</sub>
