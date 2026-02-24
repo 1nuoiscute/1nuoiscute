@@ -17,18 +17,27 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
           
-          # --- 插件配置 (选了几个最硬核的) ---
+          # --- 核心：仓库过滤与语言去噪 ---
           plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
+          plugin_languages_skipped: 1nuoiscute.github.io, 1nuo-blog-twikoo, 1nuo-blog, 1nuoiscute  # 这里填入你不想要的仓库名
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage, lines
+          plugin_languages_indepth: yes # 开启深度分析，抓取 LeetCode 仓库里的具体逻辑
           
-          plugin_habits: yes # 统计你的编码习惯 (早起还是熬夜)
-          plugin_habits_facts: yes
+          # --- 修复习惯统计 (Habits) ---
+          plugin_habits: yes
+          plugin_habits_from: 100       # 抓取最近100个事件，防止数据太少报错
           plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
           
-          plugin_lines: yes # 统计总代码行数 (这才叫数据)
+          # --- 修复成就统计 (Achievements) ---
+          plugin_achievements: yes
+          plugin_achievements_threshold: X # 极低门槛模式，只要有活动就点亮勋章
+          plugin_achievements_display: compact 
           
-          plugin_achievements: yes # 自动获得成就勋章
-          plugin_achievements_display: compact
+          # --- 其他数据 ---
+          plugin_lines: yes
           
+          # 重新排序，把你最在意的语言占比放在最上面
           config_order: base.header, languages, habits, lines, achievements
