@@ -22,7 +22,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=1nuoiscute&theme=react-dark&hide_border=true&area=true" width="59.5%" />
 </p>
 
----
+![](https://github.com/1nuoiscute/1nuoiscute/blob/main/github-metrics.svg)
 
 <sub>*![Views](https://komarev.com/ghpvc/?username=1nuoiscute&color=blue&style=flat-square)*</sub>
 <!--
