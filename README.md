@@ -13,7 +13,8 @@
 
 ### 🌐 <i>My Space<i>
 - 🏠 **<i>[Personal Website|个人主页](https://1nuo.me)<i>** 
-- 🏛️ **<i>[1Nuo-Rating-System|量化评测系统](https://github.com/1nuoiscute/1Nuo-Rating-System)<i>** 
+- 🏛️ **<i>[1nuo-rate|量化评测系统](https://github.com/1nuoiscute/1nuo-rate)<i>**
+- 💴 **<i>[1nuo-wealth|经济管理系统](https://github.com/1nuoiscute/1nuo-wealth)<i>**
 ---
 
 ### 📊 <i>Github Data<i>
