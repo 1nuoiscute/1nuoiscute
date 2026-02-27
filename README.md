@@ -1,5 +1,5 @@
 # <i> 1nuo / 诺诺 <i>
-<sub><i>SWJTU | EE | Year 1</i></sub>
+<sub><i>SWJTU / EE / Year 1</i></sub>
 
 <img src="https://readme-typing-svg.demolab.com?size=14&pause=1000&color=808080&vCenter=true&width=650&height=25&lines=%E6%88%91%E5%B7%B2%E7%AE%AD%E5%9C%A8%E5%BC%A6%E4%B8%8A%EF%BC%8C%E6%88%91%E5%86%B3%E5%AE%9A%E5%8E%BB%E5%8F%97%E4%BC%A4;We+choose+to+go+to+the+moon%2C+not+because+it+is+easy%2C+but+because+it+is+hard.&v=2" alt="Typing SVG" />
 
