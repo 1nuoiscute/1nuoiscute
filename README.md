@@ -25,13 +25,6 @@
 
 - 学习 **C / C++、Python、STM32 与嵌入式 Linux**等
 - 探索 **计算机视觉、数学建模和 AI 辅助开发**
-- 持续维护 [1nuo.me](https://1nuo.me)，记录学习、旅行和那些不想忘记的想法
+- 持续维护 [1nuo.me](https://1nuo.me)，记录学习、旅行和一些想法
 
-## GitHub
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&hide_border=true&theme=default&rank_icon=github" />
-  <img alt="1nuo's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&hide_border=true&theme=default&rank_icon=github" width="430" />
-</picture>
 
