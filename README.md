@@ -17,7 +17,7 @@
 
 `RK3566` · `Computer Vision` · `Embedded Linux` · `Codex Skill`
 
-### [1nuo's Digital Garden](https://github.com/1nuoiscute/1nuo-blog)
+### [1nuo.me](https://github.com/1nuoiscute/1nuo-blog)
 
 我的个人网站。这里有文章与课程笔记，也有测试、Bingo、小游戏、阅读清单和一些自制的互动工具。
 
