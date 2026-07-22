@@ -1,39 +1,37 @@
-# <i> 1nuo / 诺诺 <i>
-<sub><i>SWJTU / EE / Year 1</i></sub>
+# 1nuo / 诺诺
 
-<img src="https://readme-typing-svg.demolab.com?size=14&pause=1000&color=808080&vCenter=true&width=650&height=25&lines=%E6%88%91%E5%B7%B2%E7%AE%AD%E5%9C%A8%E5%BC%A6%E4%B8%8A%EF%BC%8C%E6%88%91%E5%86%B3%E5%AE%9A%E5%8E%BB%E5%8F%97%E4%BC%A4;We+choose+to+go+to+the+moon%2C+not+because+it+is+easy%2C+but+because+it+is+hard.&v=2" alt="Typing SVG" />
+<sub><i>SWJTU · Electrical Engineering · Rising Sophomore</i></sub>
 
----
+<img src="https://readme-typing-svg.demolab.com?size=14&pause=1200&color=808080&vCenter=true&width=680&height=25&lines=%E6%88%91%E5%B7%B2%E7%AE%AD%E5%9C%A8%E5%BC%A6%E4%B8%8A%EF%BC%8C%E6%88%91%E5%86%B3%E5%AE%9A%E5%8E%BB%E5%8F%97%E4%BC%A4;We+choose+to+go+to+the+moon%2C+not+because+it+is+easy%2C+but+because+it+is+hard.&v=3" alt="我已箭在弦上，我决定去受伤。 We choose to go to the moon, not because it is easy, but because it is hard." />
 
-![Static Blog](https://img.shields.io/badge/Static_Blog-Dev-00ADD8?style=flat-square&logo=google-chrome&logoColor=white) ![Math Modeling](https://img.shields.io/badge/Math_Modeling-Activity-4B0082?style=flat-square&logo=wolfram-mathematica&logoColor=white)
+你好，我是 **1nuo**
 
-![STM32](https://img.shields.io/badge/Learning-STM32-34495E?style=flat-square&logo=stmicroelectronics&logoColor=white) ![C](https://img.shields.io/badge/Learning-C-34495E?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/Learning-C%2B%2B-34495E?style=flat-square&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Learning-Python-34495E?style=flat-square&logo=python&logoColor=white)
+[![Website](https://img.shields.io/badge/1nuo.me-Personal%20Website-181717?style=flat-square&logo=googlechrome&logoColor=white)](https://1nuo.me)
+![Electrical Engineering](https://img.shields.io/badge/Electrical%20Engineering-SWJTU-B01F24?style=flat-square)
 
----
+## What I'm building
 
-### 🌐 <i>My Space<i>
-- 🏠 **<i>[Personal Website/个人主页](https://1nuo.me)<i>**
----
+### [Taishan RK3566 Skill](https://github.com/1nuoiscute/Taishan-RK3566-Skill)
 
-### 📊 <i>Github Data<i>
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=1nuoiscute&theme=dark&hide_border=true" width="39.5%" />
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1nuoiscute&bg_color=0D1117&color=9DC183&line=9DC183&point=9DC183&area=true&area_color=9DC183&hide_border=true" width="59.5%" />
-</p>
+面向电赛视觉场景的 Codex Skill。它把赛题分析、板端探测、OpenCV/V4L2、UART/GPIO、RKNN 和工程验收整理成可检查、可复用的开发流程。
 
-<sub>*![Views](https://komarev.com/ghpvc/?username=1nuoiscute&color=blue&style=flat-square)*</sub>
-<!--
-**1nuoiscute/1nuoiscute** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+`RK3566` · `Computer Vision` · `Embedded Linux` · `Codex Skill`
 
-Here are some ideas to get you started:
+### [1nuo's Digital Garden](https://github.com/1nuoiscute/1nuo-blog)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+我的个人网站。这里有文章与课程笔记，也有测试、Bingo、小游戏、阅读清单和一些自制的互动工具。
+
+## Now
+
+- 学习 **C / C++、Python、STM32 与嵌入式 Linux**等
+- 探索 **计算机视觉、数学建模和 AI 辅助开发**
+- 持续维护 [1nuo.me](https://1nuo.me)，记录学习、旅行和那些不想忘记的想法
+
+## GitHub
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&hide_border=true&theme=default&rank_icon=github" />
+  <img alt="1nuo's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=1nuoiscute&show_icons=true&hide_border=true&theme=default&rank_icon=github" width="430" />
+</picture>
+
