@@ -3,12 +3,23 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 const renders = process.env.METRICS_RENDER_DIR || '/metrics_renders';
 const files = ['metrics-light.svg', 'metrics-dark.svg'];
 const contents = files.map(name => {
-  const svg = readFileSync(`${renders}/${name}`, 'utf8');
+  let svg = readFileSync(`${renders}/${name}`, 'utf8');
   if (!svg.includes('<svg') || !svg.includes('Contributions calendar') || !svg.includes('Overall issues and pull requests status')) {
     throw new Error(`Incomplete Metrics output: ${name}`);
   }
   if (/class=["'][^"']*\bfield error\b/.test(svg)) {
     throw new Error(`Metrics output contains an error: ${name}`);
+  }
+  if (name === 'metrics-dark.svg') {
+    const palette = {
+      '#ebedf0': '#161b22',
+      '#9be9a8': '#0e4429',
+      '#40c463': '#006d32',
+      '#30a14e': '#26a641',
+      '#216e39': '#39d353',
+    };
+    svg = svg.replace(/fill="(#ebedf0|#9be9a8|#40c463|#30a14e|#216e39)"/g,
+      (_, color) => `fill="${palette[color]}"`);
   }
   return svg;
 });
