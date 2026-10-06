@@ -27,6 +27,16 @@
 - 📦 **[qzone-history](https://github.com/ZHChen2000/qzone-history)**  
   为旧说说的整理与浏览提交改进，包括时间排序、重复折叠，以及扫描和保存流程。[相关 PR](https://github.com/ZHChen2000/qzone-history/pull/6)
 
+<!-- profile-metrics:start -->
+## 最近动态
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
+  <img src="assets/metrics-light.svg" alt="近半年的贡献日历与公开 PR 和 Issue 状态" width="480">
+</picture>
+<!-- profile-metrics:end -->
+
 ## 更多关于我
 
 代码之外的记录，在 [1nuo.me](https://www.1nuo.me)。
