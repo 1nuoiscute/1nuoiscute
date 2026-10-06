@@ -50,20 +50,16 @@ jobs:
           base: ""
           template: classic
           config_timezone: Asia/Shanghai
-          config_order: isocalendar, activity
+          config_order: isocalendar, followup
           config_animations: no
           config_padding: 0, 12
           config_display: regular
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_activity: yes
-          plugin_activity_limit: 4
-          plugin_activity_load: 300
-          plugin_activity_days: 30
-          plugin_activity_visibility: public
-          plugin_activity_filter: pr, issue, review
-          plugin_activity_timestamps: yes
-          plugin_activity_skipped: 1nuoiscute/1nuoiscute
+          plugin_followup: yes
+          plugin_followup_sections: user
+          plugin_followup_indepth: no
+          plugin_followup_archived: yes
           plugins_errors_fatal: yes
           retries: 2
           retries_delay: 10
@@ -73,6 +69,8 @@ jobs:
               if (heading.textContent.includes('Contributions calendar')) {
                 const statistics = heading.closest('section').querySelector('.row');
                 if (statistics) statistics.remove();
+                const calendar = heading.closest('section').querySelector('svg[style]');
+                if (calendar) calendar.style.marginTop = '0';
               }
             }
           extras_css: |
@@ -92,20 +90,16 @@ jobs:
           base: ""
           template: classic
           config_timezone: Asia/Shanghai
-          config_order: isocalendar, activity
+          config_order: isocalendar, followup
           config_animations: no
           config_padding: 0, 12
           config_display: regular
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_activity: yes
-          plugin_activity_limit: 4
-          plugin_activity_load: 300
-          plugin_activity_days: 30
-          plugin_activity_visibility: public
-          plugin_activity_filter: pr, issue, review
-          plugin_activity_timestamps: yes
-          plugin_activity_skipped: 1nuoiscute/1nuoiscute
+          plugin_followup: yes
+          plugin_followup_sections: user
+          plugin_followup_indepth: no
+          plugin_followup_archived: yes
           plugins_errors_fatal: yes
           retries: 2
           retries_delay: 10
@@ -115,6 +109,8 @@ jobs:
               if (heading.textContent.includes('Contributions calendar')) {
                 const statistics = heading.closest('section').querySelector('.row');
                 if (statistics) statistics.remove();
+                const calendar = heading.closest('section').querySelector('svg[style]');
+                if (calendar) calendar.style.marginTop = '0';
               }
             }
           extras_css: |

@@ -4,7 +4,7 @@ const renders = process.env.METRICS_RENDER_DIR || '/metrics_renders';
 const files = ['metrics-light.svg', 'metrics-dark.svg'];
 const contents = files.map(name => {
   const svg = readFileSync(`${renders}/${name}`, 'utf8');
-  if (!svg.includes('<svg') || !svg.includes('Contributions calendar') || !svg.includes('Recent activity')) {
+  if (!svg.includes('<svg') || !svg.includes('Contributions calendar') || !svg.includes('Overall issues and pull requests status')) {
     throw new Error(`Incomplete Metrics output: ${name}`);
   }
   if (/class=["'][^"']*\bfield error\b/.test(svg)) {
@@ -15,7 +15,7 @@ const contents = files.map(name => {
 
 const start = '<!-- profile-metrics:start -->';
 const end = '<!-- profile-metrics:end -->';
-const block = `${start}\n## 最近动态\n\n<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">\n  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">\n  <img src="assets/metrics-light.svg" alt="近半年的贡献日历与近期公开 PR、Issue 和评审活动" width="480">\n</picture>\n${end}\n\n`;
+const block = `${start}\n## 最近动态\n\n<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">\n  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">\n  <img src="assets/metrics-light.svg" alt="近半年的贡献日历与公开 PR 和 Issue 状态" width="480">\n</picture>\n${end}\n\n`;
 const readme = readFileSync('README.md', 'utf8');
 const begin = readme.indexOf(start);
 const finish = readme.indexOf(end);
