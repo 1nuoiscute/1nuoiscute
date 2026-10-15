@@ -17,25 +17,27 @@
   我的个人网站，放学习笔记、旅行记录和一些想法，也放 Bingo、小游戏和自己做的小工具。
 
 - 🔧 **[泰山派 RK3566 Skill](https://github.com/1nuoiscute/Taishan-RK3566-Skill)**  
-  把电赛视觉项目中的开发与验证方法整理成可复用的流程，供 Codex 和 Claude Code 使用。
+  把电赛视觉项目中的开发与验证方法整理成可复用的流程，供 Codex、Claude Code 和 DeepSeek Harness 使用。
+
+- 📦 **[better-qzone-history](https://github.com/1nuoiscute/better-qzone-history)**  
+  基于 qzone-history 维护的增强分支，改善历史时间排序、疑似重复记录折叠、扫描请求复用和按页保存，提供 Windows 版本。
+
+- 🔥 **[SRTP K230 Fire Guardian](https://github.com/1nuoiscute/SRTP-K230-Fire-Guardian)**  
+  厨房火情检测研究原型，记录 K230 板端视觉、传感器接入与模型实验，也保留失败记录和待验证的问题。
+
+## 成果展示
+
+- 📐 **[CUMCM 2026 A｜药材的烘干问题](https://github.com/1nuoiscute/CUMCM2026-A)**  
+  全国大学生数学建模竞赛省级一等奖作品，公开最终提交论文、Python 求解代码与复现说明。  
+  [阅读论文](https://github.com/1nuoiscute/CUMCM2026-A/blob/main/paper/paper.pdf) · [复现说明](https://github.com/1nuoiscute/CUMCM2026-A/blob/main/docs/reproduction.md)
 
 ## 最近参与的开源项目
 
 - 🐷 **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)**  
-  参与小猪的养成玩法与角色素材。[相关 PR](https://github.com/CLICGGER-TYPES/dsh-piggy/pull/6)
+  参与养成玩法、角色素材和成就系统，最近为菜园、矿洞、扭蛋和盲盒增加公共进度事件与十二项成就。[最近的 PR](https://github.com/CLICGGER-TYPES/dsh-piggy/pull/7)
 
 - 📦 **[qzone-history](https://github.com/ZHChen2000/qzone-history)**  
   为旧说说的整理与浏览提交改进，包括时间排序、重复折叠，以及扫描和保存流程。[相关 PR](https://github.com/ZHChen2000/qzone-history/pull/6)
-
-<!-- profile-metrics:start -->
-## 最近动态
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
-  <img src="assets/metrics-light.svg" alt="近半年的贡献日历与公开 PR 和 Issue 状态" width="480">
-</picture>
-<!-- profile-metrics:end -->
 
 ## 更多关于我
 
